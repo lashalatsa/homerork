@@ -6,6 +6,12 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/ic_launcher" />
+
 
     <TextView
         android:id="@+id/randomNumberTextView"
@@ -37,12 +43,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         android:textSize="10sp"/>
 
-    <ImageView
-        android:scaleType="centerCrop"
-        android:id="@+id/imageView"
-        android:layout_width="403dp"
-        android:layout_height="729dp"
-        tools:srcCompat="@tools:sample/avatars" />
-
+    
 
 </androidx.constraintlayout.widget.ConstraintLayout>
